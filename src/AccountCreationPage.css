@@ -1,0 +1,60 @@
+/* Create.css */
+
+/* Style for the container */
+
+login__logo{
+  margin-top: 20px;
+    margin-bottom: 20px;
+    object-fit: contain;
+    width: 100px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.all-field{
+  width: 300px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+  padding: 20px;
+}
+
+
+
+.all-field .input__label {
+  text-align: left !important; /* Use !important if necessary */
+}
+
+.all-field > form > h5 {
+  margin-bottom: 5px;
+}
+
+/* Style for the input fields */
+input {
+  width: 100%; /* Make the input fields take the full width of the container */
+  margin-bottom: 9px;
+  margin-top: 11px;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+/* Style for the button */
+button {
+  font-size: 13px;
+  line-height: 19px;
+  width: 50%;
+  padding: 10px;
+  background-color: #ffd814;
+  color: #050000;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Style for the button on hover */
+button:hover {
+  background-color: #f7ca00;
+}
